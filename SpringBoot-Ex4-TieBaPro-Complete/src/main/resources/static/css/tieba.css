@@ -1,0 +1,47 @@
+*{
+    font-family: Consolas,"Microsoft Yahei";
+    font-size: 14px;
+}
+.allWidth{
+    width: 70%;
+    border: 0px solid gray;
+    background-color: #fffffff;
+}
+.titles{
+    height: 140px;
+    background-image: url("../images/yld.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 40%;
+}
+.input_search{
+    text-align: center;
+}
+.buttom_height{
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-margin{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.its-m{
+    color: burlywood;
+    margin-left: 5px;
+}
+.welcome-tip{
+    font-size: 20px;
+    font-weight: bold;
+}
+.details-size{
+    margin-top:10px;
+    border:1px solid #E5E5E5;
+    padding:10px 10px 30px 0px
+}
+.btn-danger-def{
+    height: 20px;
+    font-size: 10px;
+    padding: 2px;
+}

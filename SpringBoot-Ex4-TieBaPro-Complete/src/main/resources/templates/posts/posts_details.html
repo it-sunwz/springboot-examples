@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tieba.css" rel="stylesheet">
+    <title th:text="${posts.posts_theme}">晋升....</title>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div class="container allWidth">
+        <div class="row titles"></div><br>
+        <div class="row welcome-tip" th:text="${classify.classify_name}">魔兽世界吧</div><br><br>
+        <div class="row" style="font-weight: bold;" th:text="${posts.posts_theme}">我买了“狐朋狗友”礼包  <button type="button" class="btn btn-danger btn-danger-def">违法删除</button></div>
+        <div class="row details-size" style="" th:text="${posts.posts_content}">
+            还想趁着半价买几个别的坐骑，大家推荐下哪个好？惊魂号和小猪看着不错
+        </div><br><br><br>
+        <div class="row welcome-tip" style="font-size:14px">发表回复</div>
+        <div class="row">
+            <textarea rows="6px" cols="80px"></textarea><br>
+            <button type="button" class="btn btn-success">&nbsp;&nbsp;发&nbsp;表&nbsp;&nbsp;</button>
+        </div>
+        <div class="row buttom_height">本页面仅供学习使用，禁止传播及商业用途，版权所属it-sunwz.com</div>
+    </div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
